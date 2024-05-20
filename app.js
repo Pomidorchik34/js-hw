@@ -95,145 +95,145 @@
 // );
 
 // 1
-// Foydalanuvchidan son kiritish
-// let son = +prompt("Iltimos, sonni kirting:"));
+// Foydalanuvchidan num kiritish
+// let num = +prompt("Iltimos, numni kirting:"));
 
-// // Sonni tekshirish va o'zgartirish
-// if (son > 0) {
-//     son += 1;
+// // numni tekshirish va o'zgartirish
+// if (num > 0) {
+//     num += 1;
 // }
 
 // // Natijani chiqarish
-// console.log("Natija: " + son);
+// console.log("Natija: " + num);
 
 // 2
-// // Foydalanuvchidan son kiritish
-// let son = parseInt(prompt("Iltimos, butun sonni kiriting:"));
+// // Foydalanuvchidan num kiritish
+// let num = parseInt(prompt("Iltimos, butun numni kiriting:"));
 
-// // Sonni tekshirish va o'zgartirish
-// if (son > 0) {
-//     son += 1;
+// // numni tekshirish va o'zgartirish
+// if (num > 0) {
+//     num += 1;
 // } else {
-//     son -= 2;
+//     num -= 2;
 // }
 
 // // Natijani chiqarish
-// console.log("Natija: " + son);
+// console.log("Natija: " + num);
 
 // 3
-// Foydalanuvchidan son kiritish
-// let son = parseInt(prompt("Iltimos, butun sonni kiriting:"));
+// Foydalanuvchidan num kiritish
+// let num = parseInt(prompt("Iltimos, butun numni kiriting:"));
 
-// // Sonni tekshirish va o'zgartirish
-// if (son > 0) {
-//     son += 1;
-// } else if (son < 0) {
-//     son -= 2;
+// // numni tekshirish va o'zgartirish
+// if (num > 0) {
+//     num += 1;
+// } else if (num < 0) {
+//     num -= 2;
 // } else {
-//     son = 10;
+//     num = 10;
 // }
 
 // // Natijani chiqarish
-// console.log("Natija: " + son);
+// console.log("Natija: " + num);
 
 // 4
-// Foydalanuvchidan uchta butun son kiritish
-// let son1 = parseInt(prompt("1-sonni kiriting:"));
-// let son2 = parseInt(prompt("2-sonni kiriting:"));
-// let son3 = parseInt(prompt("3-sonni kiriting:"));
+// Foydalanuvchidan uchta butun num kiritish
+// let num1 = parseInt(prompt("1-numni kiriting:"));
+// let num2 = parseInt(prompt("2-numni kiriting:"));
+// let num3 = parseInt(prompt("3-numni kiriting:"));
 
-// // Nechta musbat son borligini hisoblash
-// let musbatSonlarSoni = 0;
+// // Nechta musbat num borligini hisoblash
+// let musbatnumlarnumi = 0;
 
-// if (son1 > 0) {
-//     musbatSonlarSoni++;
+// if (num1 > 0) {
+//     musbatnumlarnumi++;
 // }
 
-// if (son2 > 0) {
-//     musbatSonlarSoni++;
+// if (num2 > 0) {
+//     musbatnumlarnumi++;
 // }
 
-// if (son3 > 0) {
-//     musbatSonlarSoni++;
+// if (num3 > 0) {
+//     musbatnumlarnumi++;
 // }
 
 // // Natijani chiqarish
-// console.log("Uchta kiritilgan sonlar orasida " + musbatSonlarSoni + " ta musbat son bor.");
+// console.log("Uchta kiritilgan numlar orasida " + musbatnumlarnumi + " ta musbat num bor.");
 
 // 5
-// Foydalanuvchidan uchta butun son kiritish
-// let son1 = parseInt(prompt("1-sonni kiriting:"));
-// let son2 = parseInt(prompt("2-sonni kiriting:"));
-// let son3 = parseInt(prompt("3-sonni kiriting:"));
+// Foydalanuvchidan uchta butun num kiritish
+// let num1 = parseInt(prompt("1-numni kiriting:"));
+// let num2 = parseInt(prompt("2-numni kiriting:"));
+// let num3 = parseInt(prompt("3-numni kiriting:"));
 
-// // Nechta musbat va manfiy sonlar borligini hisoblash
-// let musbatSonlarSoni = 0;
-// let manfiySonlarSoni = 0;
+// // Nechta musbat va manfiy numlar borligini hisoblash
+// let musbatnumlarnumi = 0;
+// let manfiynumlarnumi = 0;
 
-// if (son1 > 0) {
-//     musbatSonlarSoni++;
-// } else if (son1 < 0) {
-//     manfiySonlarSoni++;
+// if (num1 > 0) {
+//     musbatnumlarnumi++;
+// } else if (num1 < 0) {
+//     manfiynumlarnumi++;
 // }
 
-// if (son2 > 0) {
-//     musbatSonlarSoni++;
-// } else if (son2 < 0) {
-//     manfiySonlarSoni++;
+// if (num2 > 0) {
+//     musbatnumlarnumi++;
+// } else if (num2 < 0) {
+//     manfiynumlarnumi++;
 // }
 
-// if (son3 > 0) {
-//     musbatSonlarSoni++;
-// } else if (son3 < 0) {
-//     manfiySonlarSoni++;
+// if (num3 > 0) {
+//     musbatnumlarnumi++;
+// } else if (num3 < 0) {
+//     manfiynumlarnumi++;
 // }
 
 // // Natijani chiqarish
-// console.log("Uchta kiritilgan sonlar orasida " + musbatSonlarSoni + " ta musbat son va " + manfiySonlarSoni + " ta manfiy son bor.");
+// console.log("Uchta kiritilgan numlar orasida " + musbatnumlarnumi + " ta musbat num va " + manfiynumlarnumi + " ta manfiy num bor.");
 
 // 6
-// // Foydalanuvchidan ikkita butun son kiritish
-// let son1 = parseInt(prompt("1-sonni kiriting:"));
-// let son2 = parseInt(prompt("2-sonni kiriting:"));
+// // Foydalanuvchidan ikkita butun num kiritish
+// let num1 = parseInt(prompt("1-numni kiriting:"));
+// let num2 = parseInt(prompt("2-numni kiriting:"));
 
 // // Kattani aniqlash
-// let kattaSon;
+// let kattanum;
 
-// if (son1 > son2) {
-//     kattaSon = son1;
+// if (num1 > num2) {
+//     kattanum = num1;
 // } else {
-//     kattaSon = son2;
+//     kattanum = num2;
 // }
 
 // // Natijani chiqarish
-// console.log("Katta son: " + kattaSon);
+// console.log("Katta num: " + kattanum);
 
 // 7
-// // Foydalanuvchidan ikkita butun son kiritish
-// let son1 = parseInt(prompt("1-sonni kiriting:"));
-// let son2 = parseInt(prompt("2-sonni kiriting:"));
+// // Foydalanuvchidan ikkita butun num kiritish
+// let num1 = parseInt(prompt("1-numni kiriting:"));
+// let num2 = parseInt(prompt("2-numni kiriting:"));
 
-// // Kiritilgan sonlarni solishtirish
-// let kattaSon;
-// let kichikSon;
+// // Kiritilgan numlarni solishtirish
+// let kattanum;
+// let kichiknum;
 
-// if (son1 > son2) {
-//     kattaSon = son1;
-//     kichikSon = son2;
+// if (num1 > num2) {
+//     kattanum = num1;
+//     kichiknum = num2;
 // } else {
-//     kattaSon = son2;
-//     kichikSon = son1;
+//     kattanum = num2;
+//     kichiknum = num1;
 // }
 
-// console.log("Awal katta son: " + kattaSon);
-// console.log("Keyin kichik son: " + kichikSon);
+// console.log("Awal katta num: " + kattanum);
+// console.log("Keyin kichik num: " + kichiknum);
 
 // 8
-// // Foydalanuvchidan ikkita haqiqiy son kiritish
-// let A = +prompt("A sonni kiriting:");
-// let B = +prompt("B sonni kiriting:");
+// // Foydalanuvchidan ikkita haqiqiy num kiritish
+// let A = +prompt("A numni kiriting:");
+// let B = +prompt("B numni kiriting:");
 
-// // Sonlarni solishtirish
+// // numlarni solishtirish
 // if (A > B) {
 //   console.log("A:", A);
 //   console.log("B:", B);
@@ -243,11 +243,11 @@
 // }
 
 // 9
-// // Foydalanuvchidan ikkita butun son kiritish
-// let A = parseInt(prompt("A sonni kiriting:"));
-// let B = parseInt(prompt("B sonni kiriting:"));
+// // Foydalanuvchidan ikkita butun num kiritish
+// let A = parseInt(prompt("A numni kiriting:"));
+// let B = parseInt(prompt("B numni kiriting:"));
 
-// // Sonlarni solishtirish va o'zlashtirish
+// // numlarni solishtirish va o'zlashtirish
 // if (A != B) {
 //   A = A + B;
 //   B = A;
@@ -260,11 +260,11 @@
 // console.log("B:", B);
 
 // 10
-// // Foydalanuvchidan ikkita butun son kiritish
-// let A = parseInt(prompt("A sonni kiriting:"));
-// let B = parseInt(prompt("B sonni kiriting:"));
+// // Foydalanuvchidan ikkita butun num kiritish
+// let A = parseInt(prompt("A numni kiriting:"));
+// let B = parseInt(prompt("B numni kiriting:"));
 
-// // Sonlarni solishtirish va o'zlashtirish
+// // numlarni solishtirish va o'zlashtirish
 // if (A != B) {
 //     if (A > B) {
 //         B = A;
@@ -280,97 +280,97 @@
 // console.log("B:", B);
 
 // 11
-// let son1 = +prompt("1-sonni kiriting:");
-// let son2 = +prompt("2-sonni kiriting:");
-// let son3 = +prompt("3-sonni kiriting:");
+// let num1 = +prompt("1-numni kiriting:");
+// let num2 = +prompt("2-numni kiriting:");
+// let num3 = +prompt("3-numni kiriting:");
 
-// // Kichik sonni aniqlash
-// let kichikSon = son1;
+// // Kichik numni aniqlash
+// let kichiknum = num1;
 
-// if (son2 < kichikSon) {
-//     kichikSon = son2;
+// if (num2 < kichiknum) {
+//     kichiknum = num2;
 // }
 
-// if (son3 < kichikSon) {
-//     kichikSon = son3;
+// if (num3 < kichiknum) {
+//     kichiknum = num3;
 // }
 
-// console.log("Kichik son:", kichikSon);
+// console.log("Kichik num:", kichiknum);
 
 // 12
-// let son1 = +prompt("1-sonni kiriting:");
-// let son2 = +prompt("2-sonni kiriting:");
-// let son3 = +prompt("3-sonni kiriting:");
+// let num1 = +prompt("1-numni kiriting:");
+// let num2 = +prompt("2-numni kiriting:");
+// let num3 = +prompt("3-numni kiriting:");
 
-// // O'rta sonni aniqlash
-// let ortaSon;
+// // O'rta numni aniqlash
+// let ortanum;
 
-// // Sonlarni solishtirish
-// if ((son1 >= son2 && son1 <= son3) || (son1 <= son2 && son1 >= son3)) {
-//     ortaSon = son1;
-// } else if ((son2 >= son1 && son2 <= son3) || (son2 <= son1 && son2 >= son3)) {
-//     ortaSon = son2;
+// // numlarni solishtirish
+// if ((num1 >= num2 && num1 <= num3) || (num1 <= num2 && num1 >= num3)) {
+//     ortanum = num1;
+// } else if ((num2 >= num1 && num2 <= num3) || (num2 <= num1 && num2 >= num3)) {
+//     ortanum = num2;
 // } else {
-//     ortaSon = son3;
+//     ortanum = num3;
 // }
 
-// console.log("O'rta son:", ortaSon);
+// console.log("O'rta num:", ortanum);
 
 // 13
-// let son1 = +prompt("1-sonni kiriting:");
-// let son2 = +prompt("2-sonni kiriting:");
-// let son3 = +prompt("3-sonni kiriting:");
+// let num1 = +prompt("1-numni kiriting:");
+// let num2 = +prompt("2-numni kiriting:");
+// let num3 = +prompt("3-numni kiriting:");
 
-// // Kichik va katta sonlarni aniqlash
-// let kichikSon, kattaSon;
+// // Kichik va katta numlarni aniqlash
+// let kichiknum, kattanum;
 
-// // Sonlarni solishtirish
-// if (son1 <= son2 && son1 <= son3) {
-//     kichikSon = son1;
-//     if (son2 >= son3) {
-//         kattaSon = son2;
+// // numlarni solishtirish
+// if (num1 <= num2 && num1 <= num3) {
+//     kichiknum = num1;
+//     if (num2 >= num3) {
+//         kattanum = num2;
 //     } else {
-//         kattaSon = son3;
+//         kattanum = num3;
 //     }
-// } else if (son2 <= son1 && son2 <= son3) {
-//     kichikSon = son2;
-//     if (son1 >= son3) {
-//         kattaSon = son1;
+// } else if (num2 <= num1 && num2 <= num3) {
+//     kichiknum = num2;
+//     if (num1 >= num3) {
+//         kattanum = num1;
 //     } else {
-//         kattaSon = son3;
+//         kattanum = num3;
 //     }
 // } else {
-//     kichikSon = son3;
-//     if (son1 >= son2) {
-//         kattaSon = son1;
+//     kichiknum = num3;
+//     if (num1 >= num2) {
+//         kattanum = num1;
 //     } else {
-//         kattaSon = son2;
+//         kattanum = num2;
 //     }
 // }
 
-// console.log("Avval kichik son:", kichikSon);
-// console.log("Keyin katta son:", kattaSon);
+// console.log("Avval kichik num:", kichiknum);
+// console.log("Keyin katta num:", kattanum);
 
 // 14
 
 // 15
-// let son1 = +prompt("1-sonni kiriting:");
-// let son2 = +prompt("2-sonni kiriting:");
-// let son3 = +prompt("3-sonni kiriting:");
-// let yigindi1 = son1 + son2;
-// let yigindi2 = son1 + son3;
-// let yigindi3 = son2 + son3;
-// let engKattaYigindi, sonlar;
+// let num1 = +prompt("1-numni kiriting:");
+// let num2 = +prompt("2-numni kiriting:");
+// let num3 = +prompt("3-numni kiriting:");
+// let resault1 = num1 + num2;
+// let resault2 = num1 + num3;
+// let resault3 = num2 + num3;
+// let engKattaYigindi, numlar;
 
-// if (yigindi1 >= yigindi2 && yigindi1 >= yigindi3) {
-//   engKattaYigindi = yigindi1;
-//   sonlar = [son1, son2];
-// } else if (yigindi2 >= yigindi1 && yigindi2 >= yigindi3) {
-//   engKattaYigindi = yigindi2;
-//   sonlar = [son1, son3];
+// if (resault1 >= resault2 && resault1 >= resault3) {
+//   engKattaYigindi = resault1;
+//   numlar = [num1, num2];
+// } else if (resault2 >= resault1 && resault2 >= resault3) {
+//   engKattaYigindi = resault2;
+//   numlar = [num1, num3];
 // } else {
-//   engKattaYigindi = yigindi3;
-//   sonlar = [son2, son3];
+//   engKattaYigindi = resault3;
+//   numlar = [num2, num3];
 // }
 
-// console.log("Eng katta yig'indini topgan ikkita son:", sonlar);
+// console.log("Eng katta yig'indini topgan ikkita num:", numlar);
