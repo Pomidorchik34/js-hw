@@ -371,3 +371,117 @@
 // }
 
 // console.log("Eng katta yig'indini topgan ikkita num:", numlar);
+
+// let p = 0;
+
+// let num1 = +prompt("1-sonni kiriting");
+// let num2 = +prompt("2-sonni kiriting");
+// let num3 = +prompt("3-sonni kiriting");
+
+// if (num1 % 2 == 1) {
+//   p = p + num1;
+// }
+// if (num2 % 2 == 1) {
+//   p = p + num2;
+// }
+// if (num3 % 2 == 1) {
+//   p = p + num3;
+// }
+// console.log(p);
+
+//
+
+// let counter_ = 0;
+// let counter = 0;
+// let num1 = +prompt("1-sonni kiriting");
+// let num2 = +prompt("2-sonni kiriting");
+// let num3 = +prompt("3-sonni kiriting");
+// if (num1 > 0 || num1 == 0) {
+//   counter++;
+// } else {
+//   counter_++;
+// }
+// if (num2 > 0 || num2 == 0) {
+//   counter++;
+// } else {
+//   counter_++;
+// }
+// if (num3 > 0 || num3 == 0) {
+//   counter++;
+// } else {
+//   counter_++;
+// }
+// console.log(counter);
+// console.log(counter_);
+
+// let num1 = 1;
+// let num2 = 4;
+// if (num1 > num2) {
+//   console.log(num1);
+// } else {
+//   console.log(num2);
+// }
+
+//
+
+// let max;
+// let min;
+// let num1 = 1;
+// let num2 = 4;
+// if (num1 > num2) {
+//   max = num1;
+//   min = num2;
+// } else {
+//   max = num2;
+//   min = num1;
+// }
+// console.log(max, min);
+
+//
+
+// let max;
+// let min;
+// let num1 = 1;
+// let num2 = 4;
+// if (num1 > num2) {
+//   max = num1;
+//   min = num2;
+// }
+// console.log(max, min);
+
+//
+
+// let max;
+// let max;
+// let num1 = 4;
+// let num2 = 4;
+// if (num1 < num2) {
+//   max = num2;
+//   num1 = max;
+//   console.log(num1, num2);
+// } else if (num1 == num2) {
+//   num1 = 0;
+//   num2 = 0;
+//   console.log(num1, num2);
+// }
+
+//
+
+// let num1 = 1;
+// let num2 = 2;
+// let num3 = 3;
+// let max;
+// if (num1 < num2) {
+//   max = num2;
+// } else {
+//   max = num1;
+// }
+// if (max < num3) {
+//   max = num3;
+// }
+// console.log(max);
+
+// let num1 = 10;
+// if (num1 > 0) {
+//   console.log(num1 + 1);
+// }
