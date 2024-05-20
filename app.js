@@ -360,16 +360,16 @@
 // let resault1 = num1 + num2;
 // let resault2 = num1 + num3;
 // let resault3 = num2 + num3;
-// let engKattaYigindi, numlar;
+// let allresaults, numlar;
 
 // if (resault1 >= resault2 && resault1 >= resault3) {
-//   engKattaYigindi = resault1;
+//   allresaults = resault1;
 //   numlar = [num1, num2];
 // } else if (resault2 >= resault1 && resault2 >= resault3) {
-//   engKattaYigindi = resault2;
+//   allresaults = resault2;
 //   numlar = [num1, num3];
 // } else {
-//   engKattaYigindi = resault3;
+//   allresaults = resault3;
 //   numlar = [num2, num3];
 // }
 
