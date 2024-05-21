@@ -485,3 +485,266 @@
 // if (num1 > 0) {
 //   console.log(num1 + 1);
 // }
+
+// 1
+
+// let num1 = 5;
+// let resault;
+// if (num1 > 0) {
+//   resault = `musbat`;
+// } else {
+//   resault = `manfiy`;
+// }
+// console.log(resault);
+
+// 2
+
+// let num1 = 5;
+// let resault;
+// if (num1 % 2 == 1) {
+//   resault = `toq`;
+// } else {
+//   resault = `juft`;
+// }
+// console.log(resault);
+
+// 3
+
+// let num1 = 5;
+// let resault;
+// if (num1 % 2 == 1) {
+//   resault = `toq`;
+// } else {
+//   resault = `juft`;
+// }
+// console.log(resault);
+
+// 4
+
+// let num1 = 3;
+// let num2 = 3;
+// if (num1 > 2 && num2 <= 3) {
+//   console.log(true);
+// } else {
+//   console.log(false);
+// }
+
+// 5
+
+// let num1 = 3;
+// let num2 = 4;
+// if (num1 >= 0 || num2 < -2) {
+//   console.log(true);
+// } else {
+//   console.log(false);
+// }
+
+// 6
+
+// let num1 = 3;
+// let num2 = 4;
+// let num3 = 5;
+// if (num1 <= num2 <= num3) {
+//   console.log(true);
+// } else {
+//   console.log(false);
+// }
+
+// 7
+
+// let num1 = 3;
+// let num2 = 4;
+// let num3 = 6;
+// console.log(num1, num2, num3);
+
+// 8
+
+// let num1 = 3;
+// let num2 = 5;
+// if (num1 % 2 == 1 && num2 % 2 == 1) {
+//   console.log(true);
+// } else {
+//   console.log(false);
+// }
+
+// 9
+
+// let num1 = 3;
+// let num2 = 5;
+// if (num1 % 2 == 1 || num2 % 2 == 1) {
+//   console.log(true);
+// } else {
+//   console.log(false);
+// }
+
+// 10
+
+// let num1 = 3;
+// let num2 = 5;
+// if (num1 % 2 == 1) {
+//   console.log(`birinchi son toq`);
+// } else {
+//   console.log(`birinchi son toq emas`);
+// }
+// if (num2 % 2 == 1) {
+//   console.log(`ikkinchi son toq`);
+// } else {
+//   console.log(`ikkinchi son toq emas`);
+// }
+
+// 11
+
+// let num1 = 3;
+// let num2 = 5;
+// if (num1 % 2 == 1) {
+//   console.log(`birinchi son toq`);
+// } else {
+//   console.log(`birinchi juft son`);
+// }
+// if (num2 % 2 == 1) {
+//   console.log(`ikkinchi son toq`);
+// } else {
+//   console.log(`ikkinchi juft son`);
+// }
+
+// 12
+
+// let num1 = 3;
+// let num2 = 5;
+// if (num1 % 2 == 1) {
+//   console.log(`birinchi son toq`);
+// } else {
+//   console.log(`birinchi juft son`);
+// }
+// if (num2 % 2 == 1) {
+//   console.log(`ikkinchi son toq`);
+// } else {
+//   console.log(`ikkinchi juft son`);
+// }
+
+// 13
+
+// let num1 = 3;
+// let num2 = -5;
+// let num3 = 7;
+// if (num1 > 0 && num2 > 0 && num3 > 0) {
+//   console.log(true);
+// } else {
+//   console.log(false);
+// }
+
+// 14
+
+// let num1 = 3;
+// let num2 = 5;
+// let num3 = 3;
+// if (num1 > 0 || num2 > 0 || num3 > 0) {
+//   console.log(true);
+// } else {
+//   console.log(false);
+// }
+
+// 15
+
+// let num1 = 3;
+// let num2 = 5;
+// let num3 = 3;
+// if (num1 > 0 || num2 > 0 || num3 > 0) {
+//   console.log(true);
+// } else {
+//   console.log(false);
+// }
+
+// 16
+
+// let num1 = 9;
+// if (num1 % 10 == num1) {
+//   console.log(`berilgan son ikki xonali emas`);
+// } else {
+//   console.log(`berilgan son ikki xonali`);
+// }
+// if (num1 % 2 != 1) {
+//   console.log(`berilgan son juft`);
+// } else {
+//   console.log(`berilgan son toq`);
+// }
+
+// 17
+
+// let num1 = 100;
+// if (num1 % 100 == num1) {
+//   console.log(`berilgan son uch xonali emas`);
+// } else {
+//   console.log(`berilgan son uch xonali`);
+// }
+
+// 18
+
+// let num1 = 1023;
+// let num2 = 100;
+// let num3 = 100;
+// if (num1 == num2 || num1 == num3 || num2 == num3 || num2 == num1) {
+//   console.log(true);
+// } else {
+//   console.log(false);
+// }
+
+// 19
+
+// 20
+
+// let num1 = 1023;
+// let num2 = 100;
+// let num3 = 100;
+// if (num1 == num2 || num1 == num3 || num2 == num3 || num2 == num1) {
+//   console.log(`barcha raqamalar xar xil emas`);
+// } else {
+//   console.log(`barcha raqamlar xar xil`);
+// }
+
+// 21
+
+// let num1 = 124;
+// let num2 = 123;
+// let num3 = 100;
+// if ((num1 > num2 && num2 > num3) || (num3 > num2 && num2 > num1)) {
+//   console.log(`barcha raqamlar ketmaketlikda ketgan`);
+// } else {
+//   console.log(`barcha raqamlar ketmaketlikda ketmagan`);
+// }
+
+// 22
+
+// let num1 = 124;
+// let num2 = 125;
+// let num3 = 1125;
+// if (num1 > num2 && num2 > num3) {
+//   console.log(`barcha raqamlar kopayish tartibida ketgan`);
+// } else if (num3 > num2 && num2 > num1) {
+//   console.log(`barcha raqamlar kamayish tartibida ketmagan`);
+// }
+
+// 23
+
+// let num1 = 1;
+// let num2 = 2;
+// let num3 = 3;
+// let max;
+// let med;
+// let min;
+// if (num1 < num2) {
+//   max = num2;
+// } else {
+//   max = num1;
+// }
+// if (max < num3) {
+//   max = num3;
+// }
+// if (num1 > num2) {
+//   min = num2;
+// } else {
+//   min = num1;
+// }
+// if (min > num3) {
+//   min = num3;
+// }
