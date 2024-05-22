@@ -555,8 +555,11 @@
 // let num1 = 3;
 // let num2 = 4;
 // let num3 = 6;
-// console.log(num1, num2, num3);
-
+// if ((num1 < b && num2 < num3) || (num1 > num2 && num2 > num3)) {
+//   console.log(true);
+// } else {
+//   console.log(false);
+// }
 // 8
 
 // let num1 = 3;
