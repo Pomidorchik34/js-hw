@@ -7,18 +7,18 @@
 
 // 1
 // let uzunlik = 1000;
-// let resault = uzunlik / 100;
-// console.log(`${resault}m`);
+// let result = uzunlik / 100;
+// console.log(`${result}m`);
 
 // 2
 // let ogirlik = 1000;
-// let resault = ogirlik / 1000;
-// console.log(`${resault}t`);
+// let result = ogirlik / 1000;
+// console.log(`${result}t`);
 
 // 3
 // let hajm = 2048;
-// let resault = hajm / 1024;
-// console.log(`${resault}kb`);
+// let result = hajm / 1024;
+// console.log(`${result}kb`);
 
 // 4
 // let num1 = 2;
@@ -489,35 +489,35 @@
 // 1
 
 // let num1 = 5;
-// let resault;
+// let result;
 // if (num1 > 0) {
-//   resault = `musbat`;
+//   result = `musbat`;
 // } else {
-//   resault = `manfiy`;
+//   result = `manfiy`;
 // }
-// console.log(resault);
+// console.log(result);
 
 // 2
 
 // let num1 = 5;
-// let resault;
+// let result;
 // if (num1 % 2 == 1) {
-//   resault = `toq`;
+//   result = `toq`;
 // } else {
-//   resault = `juft`;
+//   result = `juft`;
 // }
-// console.log(resault);
+// console.log(result);
 
 // 3
 
 // let num1 = 5;
-// let resault;
+// let result;
 // if (num1 % 2 == 1) {
-//   resault = `toq`;
+//   result = `toq`;
 // } else {
-//   resault = `juft`;
+//   result = `juft`;
 // }
-// console.log(resault);
+// console.log(result);
 
 // 4
 
@@ -751,3 +751,8 @@
 // if (min > num3) {
 //   min = num3;
 // }
+
+let a = 5;
+let result;
+result = a > 0 ? true : a == 0 ? "another" : "other";
+console.log(result);
