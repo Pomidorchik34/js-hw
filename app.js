@@ -752,7 +752,62 @@
 //   min = num3;
 // }
 
-let a = 5;
-let result;
-result = a > 0 ? true : a == 0 ? "another" : "other";
-console.log(result);
+// let a = 0;
+// let result;
+// result = a > 0 ? true : a == 0 ? "equal" : false;
+// console.log(result);
+
+// let a = +prompt("ani kirgizing");
+// let b = +prompt("bni kirfizing");
+// let S = a * b;
+// let P = (a + b) * 2;
+
+// let result = S > P ? console.log(S) : console.log(P);
+// console.log(result);
+
+// 1
+// let t = 6;
+// let T = 10;
+// console.log(console.log((t + T) % 24));
+
+// 2
+
+// let Celsius = 24;
+// let K = Celsius + 273.15;
+// let F = (Celsius * 9) / 5 + 32;
+// console.log(K, F);
+
+// 3
+
+// 4
+
+// let n = 6;
+// let a = (n / 10) * 2;
+// let b = n / 10;
+// console.log(`${n - b}kg`);
+
+// 5
+// let n = 6;
+// let result = (n - 2) * 180;
+// console.log(result);
+// 6
+
+// 7
+// let s = 12;
+// let b = 87;
+// console.log((s - 87) / -2);
+
+// 8
+// let d = 1000;
+// let t = 500;
+// console.log((d + t) / 2);
+
+// 9
+// let n = 6;
+// console.log(n ** (n - 1));
+
+// 10
+// let num1 = 4;
+// let num2 = 1;
+// let num3 = 1;
+// console.log(num1 - num2 * num3);
