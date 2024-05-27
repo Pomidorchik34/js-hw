@@ -811,3 +811,151 @@
 // let num2 = 1;
 // let num3 = 1;
 // console.log(num1 - num2 * num3);
+// let a = 300;
+// let b = 1;
+// for (let i = b; i <= a; i++) {
+//   if (i % 2 == 0 && i > 9 && i < 100) {
+//     console.log(i);
+//   }
+// }
+
+// 1
+// let n = 12;
+// for (let i = 1; i <= n; i++) {
+//   console.log(i);
+// }
+
+// 2
+// let n = 12;
+// for (let i = 1; i <= n; n--) {
+//   console.log(n);
+// }
+
+// 3
+// let n = 12;
+// let sum = 0;
+// for (let i = 1; i <= n; i++) {
+//   sum = sum + i;
+// }
+// console.log(sum);
+
+// 4
+// let n = 12;
+// let sum = 0;
+// for (let i = 0; n >= i; i++) {
+//   if (i % 2 == 0) {
+//     sum = sum + i;
+//     console.log(i);
+//   }
+// }
+// console.log(sum);
+
+// 5
+// let n = 12;
+// let sum = 0;
+// for (let i = 0; n >= i; i++) {
+//   if (i % 2 == 1) {
+//     sum = sum + i;
+//     console.log(i);
+//   }
+// }
+// console.log(sum);
+
+// 6
+// let n = 12;
+// for (let i = 0; i <= n; i++) {
+//   if (n % i == 0) {
+//     console.log(i);
+//   }
+// }
+
+// 7
+// let n = 12;
+// let sum = 0;
+// for (let i = 0; i <= n; i++) {
+//   if (n % i == 0) {
+//     sum = sum + i;
+//   }
+// }
+// console.log(sum);
+
+// 8
+// let n = 29;
+// let counter = 0;
+// for (let i = 1; n >= i; i++) {
+//   if (n % i == 0) {
+//     counter++;
+//   }
+// }
+// if (counter == 2) {
+//   console.log(`tub son`);
+// } else {
+//   console.log(`tub emas`);
+// }
+
+// 1
+// let k = 12;
+// let n = 4;
+// for (let i = n; i > 0; i--) {
+//   console.log(k);
+// }
+
+// 2
+// let a = 12;
+// let b = 21;
+// for (let i = a; i <= b; i++) {
+//   console.log(i);
+// }
+
+// 3
+// let a = 12;
+// let b = 21;
+// for (let i = b - 1; i >= a - 1; i--) {
+//   console.log(i);
+// }
+
+// 4
+// let n = 15;
+// for (let i = 0.1; i <= 10; i += 0.1) {
+//   let price = i * n;
+//   console.log(i + price);
+// }
+
+// 5
+// let n = 15;
+// for (let i = 0.1; i <= 1; i += 0.1) {
+//   let price = i * n;
+//   console.log(i + price);
+// }
+
+// 6
+// let n = 15;
+// for (let i = 0.1; i <= 2; i += 0.1) {
+//   let price = i * n;
+//   console.log(i + price);
+// }
+
+// 7
+// let a = 12;
+// let b = 21;
+// let sum = 0;
+// for (let i = a; i <= b; i++) {
+//   sum = sum + i;
+// }
+// console.log(sum);
+
+// 8
+// let a = 12;
+// let b = 21;
+// let p = 1;
+// for (let i = a; i <= b; i++) {
+//   p = p * i;
+// }
+// console.log(p);
+
+// 9
+// let a = 12;
+// let b = 21;
+// for (let i = a; i <= b; i++) {
+//   console.log(i * i);
+// }
